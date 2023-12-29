@@ -1,0 +1,44 @@
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+}
+
+.counter-number {
+    background-color: rgb(230, 189, 87);
+    color: rgb(99, 92, 0);
+    padding: 1rem;
+    border-radius: 0.7rem;
+    font-size: 4rem;
+    font-weight: bold;
+    min-width: 80px;
+    text-align: center;
+    background-size: cover;
+}
+
+.counter-text{
+    font-weight: 1000;
+}
+
+.contagem-regressiva {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding-top: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .container{
+        height: 2rem;
+        max-width: 100px;
+    }
+       
+  }
+  
