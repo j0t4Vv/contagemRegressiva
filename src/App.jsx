@@ -1,3 +1,4 @@
+import React from 'react'
 import Title from './components/Title'
 import newYear from './assets/NewYear.jpg'
 import Contador from './components/Contador'
